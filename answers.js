@@ -83,16 +83,52 @@
 // Yell at the Ninja Turtles
 ////////////////////////////////
 
-const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+// const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 
-for (let ninja of ninjaTurtles){
-    console.log(ninja.toUpperCase());
-};
+// for (let ninja of ninjaTurtles){
+//     console.log(ninja.toUpperCase());
+// };
 
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
 
+let favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+// console.log(favMovies.sort());// #1:(.sort()) sorts elements by converting into strings and then alphabetizes the array by the first letter. 
+
+console.log(favMovies.pop()); // #2: (.pop())removes the last element(Fast and Furious)from an array and returns that element; changes the length of the array.
+
+//console.log(favMovies.push("Guardians of the Galaxy")); // #3 (.push()) adds one or more elements to the end of an array and returns the new length (20) of the array.
+
+//console.log(favMovies.reverse()); // #4 reverses an array in place. The first array element becomes the last, and the last array element becomes the first.
+
+//console.log(favMovies.shift()); // #5 removes the first element (Jaws) from an array and returns that removed element. This method changes the length of the array.
+
+//console.log(favMovies.unshift("A Star is Born")); // #6  adds one or more elements to the beginning of an array and returns the new length of the array.
+
+//console.log(favMovies.splice(3,1,'Avatar'));
+//console.log(favMovies); // #7 does not permanently alter the array
+
+//console.log(favMovies.slice(favMovies.length/2))// #8 removes selected(from start to end (end not included) where start and end represent the index) items and returns a shallow copy, leaves original in tact. 
+//console.log(favMovies.length) // total 19 elements
+
+// let output = favMovies.slice(favMovies.length/2)  // #9 stored output of slice into the variable (output) then logged the output.
+// console.log(output) //#10
+
+// for(let i = 0; i > favMovies.length; i++){
+    
+//     if (favMovies(i) === "Fast and Furious"){
+//         favMovies.pop(i);
+//     }
+// }
+//console.log(favMovies.indexOf('Fast and Furious'))// #11
+// 
+// #12 const vs let; either declaration statement could be used; favMovies is an array and in this exercise,changes were permitted because with  const--properties or items can be updated or removed with either an object or an array.
+
+console.log(favMovies)
+
+//"Methods Revisited answered"
 
 ////////////////////////////////
 // Where is Waldo
