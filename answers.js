@@ -93,11 +93,11 @@
 // Methods, Revisited
 ////////////////////////////////
 
-let favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// let favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
 // console.log(favMovies.sort());// #1:(.sort()) sorts elements by converting into strings and then alphabetizes the array by the first letter. 
 
-console.log(favMovies.pop()); // #2: (.pop())removes the last element(Fast and Furious)from an array and returns that element; changes the length of the array.
+// console.log(favMovies.pop()); // #2: (.pop())removes the last element(Fast and Furious)from an array and returns that element; changes the length of the array.
 
 //console.log(favMovies.push("Guardians of the Galaxy")); // #3 (.push()) adds one or more elements to the end of an array and returns the new length (20) of the array.
 
@@ -126,7 +126,7 @@ console.log(favMovies.pop()); // #2: (.pop())removes the last element(Fast and F
 // 
 // #12 const vs let; either declaration statement could be used; favMovies is an array and in this exercise,changes were permitted because with  const--properties or items can be updated or removed with either an object or an array.
 
-console.log(favMovies)
+// console.log(favMovies)
 
 //"Methods Revisited answered"
 
@@ -134,6 +134,27 @@ console.log(favMovies)
 // Where is Waldo
 ////////////////////////////////
 
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
+
+            //const findWaldo = whereIsWaldo.flatMap();
+            //console.log(findWaldo(9))
+//****** */H E L P || Access and console.log "Waldo"????  .flatMap seems possible but not sure how...
+
+        //console.log(whereIsWaldo.slice(1,2))// remove "Eggbert"
+
+// for (let i = 0; i < whereIsWaldo.length; i++){
+//     for (let j = 0; j < whereIsWaldo[i].length; j++){
+//         if (whereIsWaldo[i][j] === 'Neff'){
+//             whereIsWaldo[i].splice(j,1,'No One');
+//             console.log(whereIsWaldo);
+//         };
+//     };
+// };
+        // console.log(whereIsWaldo(3,1,1))
+        //console.log(whereIsWaldo)
+///The commit message should read: "Where is Waldo answered"
 
 ////////////////////////////////
 //  Excited Kitten
